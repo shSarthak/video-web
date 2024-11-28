@@ -7,9 +7,9 @@ const app = express();
 app.use(cors());
 const server = http.createServer(app);
 
-const io = new Server(server, {
+const io = require('socket.io')(server, {
     cors: {
-        origin: ["http://localhost:3000", "https://video-web-259y.onrender.com"],
+        origin: ["https://your-frontend-url.com", "http://localhost:3000"],
         methods: ["GET", "POST"]
     }
 });
