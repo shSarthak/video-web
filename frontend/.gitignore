@@ -1,0 +1,37 @@
+# Node.js modules
+node_modules/
+
+# Testing
+coverage/
+
+# Production builds
+build/
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Package manager lock files (optional)
+.pnpm-debug.log
+
+# Miscellaneous
+.pnp
+.pnp.js

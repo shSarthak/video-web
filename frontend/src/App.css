@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+  main {
+    display: flex;
+      width: 100%;
+  }
+  section.messages{
+    min-width: calc(100% - 4%);
+ 
+  }
+  
+}
