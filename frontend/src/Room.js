@@ -197,7 +197,7 @@ const Room = () => {
 
     // Socket connection effect
     useEffect(() => {
-        socketRef.current = io('http://localhost:5000', {
+        socketRef.current = io('https://video-web-259y.onrender.com', {
             reconnection: true,
             reconnectionAttempts: 5,
             reconnectionDelay: 1000
